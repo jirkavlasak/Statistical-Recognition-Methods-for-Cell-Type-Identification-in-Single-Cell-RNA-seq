@@ -1,0 +1,462 @@
+filtered out 19041 genes that are detected in less than 3 cells
+Running Scrublet
+normalizing counts per cell
+    finished (0:00:00)
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+normalizing counts per cell
+    finished (0:00:00)
+normalizing counts per cell
+    finished (0:00:00)
+Embedding transcriptomes using PCA...
+    using data matrix X directly
+Automatically set threshold at doublet score = 0.26
+Detected doublet rate = 1.5%
+Estimated detectable doublet fraction = 37.2%
+Overall doublet rate:
+	Expected   = 6.0%
+	Estimated  = 4.0%
+    Scrublet finished (0:00:01)
+normalizing counts per cell
+    finished (0:00:00)
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+WARNING: saving figure to file project_outputs\figures\filter_genes_dispersionHVG_plots.png
+computing PCA
+    with n_comps=50
+    finished (0:00:01)
+WARNING: saving figure to file project_outputs\figures\pca_variance_ratiovariance_ratio.png
+computing neighbors
+    using 'X_pca' with n_pcs = 20
+    finished: added to `.uns['neighbors']`
+    `.obsp['distances']`, distances for each pair of neighbors
+    `.obsp['connectivities']`, weighted adjacency matrix (0:00:00)
+computing UMAP
+    finished: added
+    'X_umap', UMAP coordinates (adata.obsm)
+    'umap', UMAP parameters (adata.uns) (0:00:01)
+running Leiden clustering
+    finished: found 6 clusters and added
+    'leiden_res_0.3', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 9 clusters and added
+    'leiden_res_0.5', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.6', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.7', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.8', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 11 clusters and added
+    'leiden_res_1.0', the cluster labels (adata.obs, categorical) (0:00:00)
+WARNING: saving figure to file project_outputs\figures\umapfinal_clustering.png
+WARNING: saving figure to file project_outputs\figures\umapumap_resolution.png
+computing tSNE
+    using 'X_pca' with n_pcs = 20
+    using sklearn.manifold.TSNE
+    finished: added
+    'X_tsne', tSNE coordinates (adata.obsm)
+    'tsne', tSNE parameters (adata.uns) (0:00:05)
+WARNING: saving figure to file project_outputs\figures\umapumap_comparsion.png
+WARNING: saving figure to file project_outputs\figures\tsnetsne.png
+WARNING: saving figure to file project_outputs\figures\umapceltypist.png
+filtered out 19041 genes that are detected in less than 3 cells
+Running Scrublet
+normalizing counts per cell
+    finished (0:00:00)
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+normalizing counts per cell
+    finished (0:00:00)
+normalizing counts per cell
+    finished (0:00:00)
+Embedding transcriptomes using PCA...
+    using data matrix X directly
+Automatically set threshold at doublet score = 0.26
+Detected doublet rate = 1.5%
+Estimated detectable doublet fraction = 37.2%
+Overall doublet rate:
+	Expected   = 6.0%
+	Estimated  = 4.0%
+    Scrublet finished (0:00:01)
+normalizing counts per cell
+    finished (0:00:00)
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+WARNING: saving figure to file project_outputs\figures\filter_genes_dispersionHVG_plots.png
+computing PCA
+    with n_comps=50
+    finished (0:00:01)
+WARNING: saving figure to file project_outputs\figures\pca_variance_ratiovariance_ratio.png
+computing neighbors
+    using 'X_pca' with n_pcs = 20
+    finished: added to `.uns['neighbors']`
+    `.obsp['distances']`, distances for each pair of neighbors
+    `.obsp['connectivities']`, weighted adjacency matrix (0:00:00)
+computing UMAP
+    finished: added
+    'X_umap', UMAP coordinates (adata.obsm)
+    'umap', UMAP parameters (adata.uns) (0:00:01)
+running Leiden clustering
+    finished: found 6 clusters and added
+    'leiden_res_0.3', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 9 clusters and added
+    'leiden_res_0.5', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.6', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.7', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.8', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 11 clusters and added
+    'leiden_res_1.0', the cluster labels (adata.obs, categorical) (0:00:00)
+WARNING: saving figure to file project_outputs\figures\umapfinal_clustering.png
+WARNING: saving figure to file project_outputs\figures\umapumap_resolution.png
+computing tSNE
+    using 'X_pca' with n_pcs = 20
+    using sklearn.manifold.TSNE
+    finished: added
+    'X_tsne', tSNE coordinates (adata.obsm)
+    'tsne', tSNE parameters (adata.uns) (0:00:05)
+WARNING: saving figure to file project_outputs\figures\umapumap_comparsion.png
+WARNING: saving figure to file project_outputs\figures\tsnetsne.png
+WARNING: saving figure to file project_outputs\figures\umapceltypist.png
+WARNING: saving figure to file project_outputs\figures\umapfinal_cluster.png
+filtered out 19041 genes that are detected in less than 3 cells
+Running Scrublet
+normalizing counts per cell
+    finished (0:00:00)
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+normalizing counts per cell
+    finished (0:00:00)
+normalizing counts per cell
+    finished (0:00:00)
+Embedding transcriptomes using PCA...
+    using data matrix X directly
+Automatically set threshold at doublet score = 0.26
+Detected doublet rate = 1.5%
+Estimated detectable doublet fraction = 37.2%
+Overall doublet rate:
+	Expected   = 6.0%
+	Estimated  = 4.0%
+    Scrublet finished (0:00:01)
+normalizing counts per cell
+    finished (0:00:00)
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+WARNING: saving figure to file project_outputs\figures\filter_genes_dispersionHVG_plots.png
+computing PCA
+    with n_comps=50
+    finished (0:00:00)
+WARNING: saving figure to file project_outputs\figures\pca_variance_ratiovariance_ratio.png
+computing neighbors
+    using 'X_pca' with n_pcs = 20
+    finished: added to `.uns['neighbors']`
+    `.obsp['distances']`, distances for each pair of neighbors
+    `.obsp['connectivities']`, weighted adjacency matrix (0:00:00)
+computing UMAP
+    finished: added
+    'X_umap', UMAP coordinates (adata.obsm)
+    'umap', UMAP parameters (adata.uns) (0:00:01)
+running Leiden clustering
+    finished: found 6 clusters and added
+    'leiden_res_0.3', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 9 clusters and added
+    'leiden_res_0.5', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.6', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.7', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.8', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 11 clusters and added
+    'leiden_res_1.0', the cluster labels (adata.obs, categorical) (0:00:00)
+WARNING: saving figure to file project_outputs\figures\umapfinal_clustering.png
+WARNING: saving figure to file project_outputs\figures\umapumap_resolution.png
+computing tSNE
+    using 'X_pca' with n_pcs = 20
+    using sklearn.manifold.TSNE
+    finished: added
+    'X_tsne', tSNE coordinates (adata.obsm)
+    'tsne', tSNE parameters (adata.uns) (0:00:05)
+WARNING: saving figure to file project_outputs\figures\umapumap_comparsion.png
+WARNING: saving figure to file project_outputs\figures\tsnetsne.png
+WARNING: saving figure to file project_outputs\figures\umapceltypist.png
+WARNING: saving figure to file project_outputs\figures\umapfinal_cluster.png
+filtered out 19041 genes that are detected in less than 3 cells
+Running Scrublet
+normalizing counts per cell
+    finished (0:00:00)
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+normalizing counts per cell
+    finished (0:00:00)
+normalizing counts per cell
+    finished (0:00:00)
+Embedding transcriptomes using PCA...
+    using data matrix X directly
+Automatically set threshold at doublet score = 0.26
+Detected doublet rate = 1.5%
+Estimated detectable doublet fraction = 37.2%
+Overall doublet rate:
+	Expected   = 6.0%
+	Estimated  = 4.0%
+    Scrublet finished (0:00:01)
+normalizing counts per cell
+    finished (0:00:00)
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+WARNING: saving figure to file project_outputs\figures\filter_genes_dispersionHVG_plots.png
+computing PCA
+    with n_comps=50
+    finished (0:00:00)
+WARNING: saving figure to file project_outputs\figures\pca_variance_ratiovariance_ratio.png
+computing neighbors
+    using 'X_pca' with n_pcs = 20
+    finished: added to `.uns['neighbors']`
+    `.obsp['distances']`, distances for each pair of neighbors
+    `.obsp['connectivities']`, weighted adjacency matrix (0:00:00)
+computing UMAP
+    finished: added
+    'X_umap', UMAP coordinates (adata.obsm)
+    'umap', UMAP parameters (adata.uns) (0:00:01)
+running Leiden clustering
+    finished: found 6 clusters and added
+    'leiden_res_0.3', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 9 clusters and added
+    'leiden_res_0.5', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.6', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.7', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.8', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 11 clusters and added
+    'leiden_res_1.0', the cluster labels (adata.obs, categorical) (0:00:00)
+WARNING: saving figure to file project_outputs\figures\umapfinal_clustering.png
+WARNING: saving figure to file project_outputs\figures\umapumap_resolution.png
+computing tSNE
+    using 'X_pca' with n_pcs = 20
+    using sklearn.manifold.TSNE
+    finished: added
+    'X_tsne', tSNE coordinates (adata.obsm)
+    'tsne', tSNE parameters (adata.uns) (0:00:05)
+WARNING: saving figure to file project_outputs\figures\umapumap_comparsion.png
+WARNING: saving figure to file project_outputs\figures\tsnetsne.png
+WARNING: saving figure to file project_outputs\figures\umapceltypist.png
+WARNING: saving figure to file project_outputs\figures\umapfinal_cluster.png
+filtered out 19041 genes that are detected in less than 3 cells
+Running Scrublet
+normalizing counts per cell
+    finished (0:00:00)
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+normalizing counts per cell
+    finished (0:00:00)
+normalizing counts per cell
+    finished (0:00:00)
+Embedding transcriptomes using PCA...
+    using data matrix X directly
+Automatically set threshold at doublet score = 0.26
+Detected doublet rate = 1.5%
+Estimated detectable doublet fraction = 37.2%
+Overall doublet rate:
+	Expected   = 6.0%
+	Estimated  = 4.0%
+    Scrublet finished (0:00:01)
+normalizing counts per cell
+    finished (0:00:00)
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+WARNING: saving figure to file project_outputs\figures\filter_genes_dispersionHVG_plots.png
+computing PCA
+    with n_comps=50
+    finished (0:00:00)
+WARNING: saving figure to file project_outputs\figures\pca_variance_ratiovariance_ratio.png
+computing neighbors
+    using 'X_pca' with n_pcs = 20
+    finished: added to `.uns['neighbors']`
+    `.obsp['distances']`, distances for each pair of neighbors
+    `.obsp['connectivities']`, weighted adjacency matrix (0:00:00)
+computing UMAP
+    finished: added
+    'X_umap', UMAP coordinates (adata.obsm)
+    'umap', UMAP parameters (adata.uns) (0:00:01)
+running Leiden clustering
+    finished: found 6 clusters and added
+    'leiden_res_0.3', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 9 clusters and added
+    'leiden_res_0.5', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.6', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.7', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.8', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 11 clusters and added
+    'leiden_res_1.0', the cluster labels (adata.obs, categorical) (0:00:00)
+WARNING: saving figure to file project_outputs\figures\umapfinal_clustering.png
+WARNING: saving figure to file project_outputs\figures\umapumap_resolution.png
+computing tSNE
+    using 'X_pca' with n_pcs = 20
+    using sklearn.manifold.TSNE
+    finished: added
+    'X_tsne', tSNE coordinates (adata.obsm)
+    'tsne', tSNE parameters (adata.uns) (0:00:05)
+WARNING: saving figure to file project_outputs\figures\umapumap_comparsion.png
+WARNING: saving figure to file project_outputs\figures\tsnetsne.png
+WARNING: saving figure to file project_outputs\figures\umapceltypist.png
+WARNING: saving figure to file project_outputs\figures\umapfinal_cluster.png
+WARNING: saving figure to file project_outputs\figures\umapfinal_cluster_improved.png
+filtered out 19041 genes that are detected in less than 3 cells
+Running Scrublet
+normalizing counts per cell
+    finished (0:00:00)
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+normalizing counts per cell
+    finished (0:00:00)
+normalizing counts per cell
+    finished (0:00:00)
+Embedding transcriptomes using PCA...
+    using data matrix X directly
+Automatically set threshold at doublet score = 0.26
+Detected doublet rate = 1.5%
+Estimated detectable doublet fraction = 37.2%
+Overall doublet rate:
+	Expected   = 6.0%
+	Estimated  = 4.0%
+    Scrublet finished (0:00:02)
+normalizing counts per cell
+    finished (0:00:00)
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    'dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+WARNING: saving figure to file project_outputs\figures\filter_genes_dispersionHVG_plots.png
+computing PCA
+    with n_comps=50
+    finished (0:00:01)
+WARNING: saving figure to file project_outputs\figures\pca_variance_ratiovariance_ratio.png
+computing neighbors
+    using 'X_pca' with n_pcs = 20
+    finished: added to `.uns['neighbors']`
+    `.obsp['distances']`, distances for each pair of neighbors
+    `.obsp['connectivities']`, weighted adjacency matrix (0:00:00)
+computing UMAP
+    finished: added
+    'X_umap', UMAP coordinates (adata.obsm)
+    'umap', UMAP parameters (adata.uns) (0:00:02)
+running Leiden clustering
+    finished: found 6 clusters and added
+    'leiden_res_0.3', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 9 clusters and added
+    'leiden_res_0.5', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.6', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.7', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 10 clusters and added
+    'leiden_res_0.8', the cluster labels (adata.obs, categorical) (0:00:00)
+running Leiden clustering
+    finished: found 11 clusters and added
+    'leiden_res_1.0', the cluster labels (adata.obs, categorical) (0:00:00)
+WARNING: saving figure to file project_outputs\figures\umapfinal_clustering.png
+WARNING: saving figure to file project_outputs\figures\umapumap_resolution.png
+computing tSNE
+    using 'X_pca' with n_pcs = 20
+    using sklearn.manifold.TSNE
+    finished: added
+    'X_tsne', tSNE coordinates (adata.obsm)
+    'tsne', tSNE parameters (adata.uns) (0:00:05)
+WARNING: saving figure to file project_outputs\figures\umapumap_comparsion.png
+WARNING: saving figure to file project_outputs\figures\tsnetsne.png
+WARNING: saving figure to file project_outputs\figures\umapceltypist.png
+WARNING: saving figure to file project_outputs\figures\umapfinal_cluster_improved.png
